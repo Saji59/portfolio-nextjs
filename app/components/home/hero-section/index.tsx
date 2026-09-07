@@ -14,11 +14,12 @@ export default function HeroSection() {
             </div>
             <h1 className="text-primary mt-2">Software Engineer</h1>
             <p className="text-secondary text-lg mt-6 max-w-xl mx-auto lg:mx-0">
-              Motivated Software Engineer with experience in full-stack development, 
-              React, .NET, SQL, and SEO analytics. Passionate about AI/ML systems.
+              Frontend Developer with 2 years of commercial experience in React.js
+              and full-stack SaaS engineering. Delivered production-grade features
+              including AI-powered automation modules and real-time data systems.
             </p>
             <a 
-              href="/resume.pdf"
+              href="/SAJINATH-RAJU.pdf"
               download
               className="inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-lg hover:bg-primary/80 transition-colors mt-8"
             >

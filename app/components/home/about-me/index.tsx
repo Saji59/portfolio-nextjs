@@ -27,19 +27,21 @@ export default function AboutMe() {
             </div>
           </div>
           
-          {/* Right Side - Content */}
-          <div className="flex-1">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Motivated and self-confident individual with professional experience in IT, 
-              SEO, and data analytics. Completed internship at DAITONN working with React, 
-              .NET, and SQL.
-            </p>
-            <p className="text-gray-600 dark:text-gray-400 mb-8">
-              Skilled in Python (pandas, NumPy, matplotlib), SQL, and data analysis with 
-              experience in model building and anomaly detection. Passionate about AI/ML 
-              systems and full-stack development.
-            </p>
+        
+        <div className="flex-1">
+  <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
+  <p className="text-gray-600 dark:text-gray-400 mb-4">
+    Frontend Developer with 2 years of commercial experience across 3 companies, 
+    specialising in React.js and full-stack SaaS engineering. Proficient in React.js, 
+    Redux, Tailwind CSS, JavaScript, Node.js, and REST API design. Delivered 
+    production-grade features including AI-powered automation modules and real-time 
+    data systems.
+  </p>
+<p className="text-gray-600 dark:text-gray-400 mb-8">
+    Skilled in SQL, data analysis, and API integration with a strong focus on 
+    building scalable, high-performance web applications. Experienced in delivering 
+    production-grade features and passionate about full-stack development.
+</p>
             
             {/* Contact Grid - Portfolio removed */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
