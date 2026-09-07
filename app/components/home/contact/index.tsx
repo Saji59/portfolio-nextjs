@@ -38,7 +38,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
             <p className="text-secondary mb-6">Have a project in mind? Feel free to reach out!</p>
             <div className="space-y-4">
-              <div className="flex items-center gap-3"><span className="text-2xl">✉️</span> saji2000928@gmail.com</div>
+              <div className="flex items-center gap-3"><span className="text-2xl">✉️</span> sajirs0928@gmail.com</div>
               <div className="flex items-center gap-3"><span className="text-2xl">📞</span> +94 76 132 2172</div>
               <div className="flex items-center gap-3"><span className="text-2xl">📍</span> Sri Lanka</div>
             </div>
