@@ -2,6 +2,15 @@
 import Image from "next/image";
 
 export default function HeroSection() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/SAJINATH-RAJU.pdf";
+    link.download = "SAJINATH-RAJU.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="relative overflow-hidden pt-32 md:pt-40 pb-16 lg:pb-24">
       <div className="container mx-auto px-4">
@@ -18,16 +27,15 @@ export default function HeroSection() {
               and full-stack SaaS engineering. Delivered production-grade features
               including AI-powered automation modules and real-time data systems.
             </p>
-          <a 
-  href="/SAJINATH-RAJU.pdf"
-  download="SAJINATH-RAJU.pdf"
-  className="inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-lg hover:bg-primary/80 transition-colors mt-8"
->
+            <button 
+              onClick={handleDownload}
+              className="inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-lg hover:bg-primary/80 transition-colors mt-8"
+            >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
               Download Resume
-            </a>
+            </button>
           </div>
 
           {/* Right Image */}
