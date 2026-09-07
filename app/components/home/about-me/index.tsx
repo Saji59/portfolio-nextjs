@@ -9,8 +9,7 @@ export default function AboutMe() {
     { icon: "💼", label: "LinkedIn", value: "linkedin.com/in/mr-saji", href: "https://linkedin.com/in/mr-saji" },
     { icon: "🐙", label: "GitHub", value: "github.com/Saji59", href: "https://github.com/Saji59" },
   ];
-
-  return (
+return (
     <section className="border-t border-gray-100 dark:border-gray-800">
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
@@ -18,7 +17,7 @@ export default function AboutMe() {
           <div className="flex-1 flex justify-center">
             <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-xl">
               <Image
-                src="/images/home/about-me/about-img.png.png"
+                src="/images/home/about-me/new-photo.jpg"
                 alt="Raju Sajinath"
                 fill
                 className="object-cover"
@@ -26,8 +25,6 @@ export default function AboutMe() {
               />
             </div>
           </div>
-          
-        
         <div className="flex-1">
   <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
   <p className="text-gray-600 dark:text-gray-400 mb-4">
