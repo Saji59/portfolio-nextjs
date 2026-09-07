@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
   const contactItems = [
-    { icon: "✉️", label: "Email", value: "saji2000928@gmail.com", href: "mailto:saji2000928@gmail.com" },
+    { icon: "✉️", label: "Email", value: "saji2000928@gmail.com", href: "mailto:sajirs0928@gmail.com" },
     { icon: "📞", label: "Phone", value: "+94 76 132 2172", href: "tel:+94761322172" },
     { icon: "📍", label: "Location", value: "Sri Lanka", href: "#" },
     { icon: "💼", label: "LinkedIn", value: "linkedin.com/in/mr-saji", href: "https://linkedin.com/in/mr-saji" },
